@@ -1,0 +1,111 @@
+/* Write your CSS here */
+body{
+  background: rgb(242,242,242);
+  color: rgb(84,95,102);
+  font-size: 20px;
+  font-family: Merriweather;
+}
+h1{
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+
+p {
+	font-size: 20px;
+}
+
+
+a {
+  color:rgb(84,95,102);
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: rgb(173,52,62);
+}
+
+#banner {
+	margin: 15px auto;
+    width: 95%;
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1524275804141-5e9f2bc5a71d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	color: white;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#banner img {
+  border-radius: 50%;
+}
+#footer{
+  margin: 15px auto;
+  width: 95%;
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+
+.cards {
+  margin: 15px auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
+
